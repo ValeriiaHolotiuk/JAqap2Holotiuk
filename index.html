@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript QAP2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Holotiuk.QAP2</h1>
+    
+    <!-- Task 1: Convert String to Lower Snake Case -->
+    <section>
+        <h2>Task 1: Convert String to Lower Snake Case</h2>
+        <input type="text" id="snakeInput" placeholder="Enter text">
+        <button onclick="convertToSnakeCase()">Convert</button>
+        <p id="snakeResult"></p>
+    </section>
+    
+    <!-- Task 2: Create a Video Element -->
+    <section>
+        <h2>Task 2: Create a Video Element</h2>
+        <input type="text" id="videoURL" placeholder="Enter video URL">
+        <input type="number" id="videoWidth" placeholder="Width">
+        <input type="checkbox" id="videoControls"> Enable Controls
+        <button onclick="generateVideo()">Generate Video</button>
+        <div id="videoContainer"></div>
+    </section>
+    
+    <!-- Task 3: Parse a Date String -->
+    <section>
+        <h2>Task 3: Parse a Date String</h2>
+        <input type="text" id="dateInput" placeholder="YYYY-MM-DD">
+        <button onclick="parseDate()">Parse</button>
+        <p id="dateResult"></p>
+    </section>
+    
+    <!-- Task 4: Convert a Date Object to a String -->
+    <section>
+        <h2>Task 4: Convert Date to String</h2>
+        <input type="date" id="datePicker">
+        <button onclick="convertDate()">Convert</button>
+        <p id="convertedDate"></p>
+    </section>
+    
+    <!-- Task 5: Parse Geographic Coordinates -->
+    <section>
+        <h2>Task 5: Parse Geographic Coordinates</h2>
+        <input type="text" id="geoInput" placeholder="Enter coordinates">
+        <button onclick="parseCoordinates()">Parse</button>
+        <p id="geoResult"></p>
+    </section>
+    
+    <!-- Task 6: Format and Display Multiple Coordinates -->
+    <section>
+        <h2>Task 6: Format Multiple Coordinates</h2>
+        <input type="text" id="multiGeoInput" placeholder="Enter multiple coordinates">
+        <button onclick="formatCoordinates()">Format</button>
+        <p id="multiGeoResult"></p>
+    </section>
+    
+    <!-- Task 7: Determine MIME Type -->
+    <section>
+        <h2>Task 7: Determine MIME Type</h2>
+        <input type="text" id="mimeInput" placeholder="Enter filename">
+        <button onclick="determineMimeType()">Check</button>
+        <p id="mimeResult"></p>
+    </section>
+    
+    <!-- Task 8: Generate License Link -->
+    <section>
+        <h2>Task 8: Generate License Link</h2>
+        <input type="text" id="licenseInput" placeholder="Enter license code">
+        <button onclick="generateLicenseLink()">Generate</button>
+        <p id="licenseResult"></p>
+    </section>
+    
+    <!-- Task 9: Convert Values to Boolean -->
+    <section>
+        <h2>Task 9: Convert to Boolean</h2>
+        <input type="text" id="booleanInput" placeholder="Enter value">
+        <button onclick="convertBoolean()">Convert</button>
+        <p id="booleanResult"></p>
+    </section>
+    
+    <!-- Task 10: Build a URL -->
+    <section>
+        <h2>Task 10: Build a URL</h2>
+        <input type="text" id="query" placeholder="Search Query">
+        <input type="text" id="sort" placeholder="Sort Order">
+        <input type="number" id="results" placeholder="Result Count">
+        <input type="text" id="license" placeholder="License Type">
+        <button onclick="buildURL()">Generate URL</button>
+        <p id="urlResult"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
